@@ -1,0 +1,11 @@
+
+pip install gTTS  # Install on windows Powershell Administrator
+
+:: 1. PHP package to extract text from PDF via Poppler
+composer require spatie/pdf-to-text
+
+:: 2. Front-end icons and utility packages (if using Lucide icons)
+npm install lucide-react
+
+
+php artisan storage:link
